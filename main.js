@@ -70,7 +70,7 @@ $(function () {
             $('#mainImage').css('background-image', 'url("' + content[choices + 'Image'] + '")');
             $('#storyText').html(content[choices]);
         } else {
-            $('#storyText').html($('#storyText').html() + '<br>Invalid choice');
+            $('#storyText').html($('#storyText').html() + '<br> Refresh to play again.');
 
         }
 

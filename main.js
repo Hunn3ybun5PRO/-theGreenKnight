@@ -67,7 +67,7 @@ $(function () {
     function advanceText() {
         console.log(choices);
         if(content[choices]) {
-            $('#mainImage').css('background-image', 'url("img/' + content[choices + 'Image'] + '")');
+            $('#mainImage').css('background-image', 'url("' + content[choices + 'Image'] + '")');
             $('#storyText').html(content[choices]);
         } else {
             $('#storyText').html($('#storyText').html() + '<br>Invalid choice');
